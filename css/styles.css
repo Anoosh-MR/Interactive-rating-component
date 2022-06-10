@@ -1,0 +1,130 @@
+body{
+    color: hsl(0, 0%, 100%);
+  background: hsl(216, 12%, 8%);
+   font-family: Overpass;
+}
+.container{
+     max-width: 325px;
+  margin: 150px auto;
+  background-color: hsl(213, 19%, 18%);
+  padding: 25px;
+  border-radius: 30px;
+}
+.icon{
+    color:hsl(25, 97%, 53%);
+     border-radius: 50%;
+  background-color: hsl(213, 19%, 25%);
+  padding: 15px;
+  margin-top: 10px 12px;
+  margin: 10px;
+  
+  
+}
+.btn {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  padding: 15px;
+  width: 85%;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  width: 100%;
+}
+.circle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 25%);
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  color: hsl(216, 12%, 54%);
+  font-weight: 700;
+}
+.circle:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.description-paragraph {
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: hsl(216, 12%, 54%);
+  text-align: left;
+}
+
+.btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+.submit-clicked {
+  background-color: hsl(216, 12%, 54%);
+  color: hsl(0, 0%, 100%);
+}
+.thank-you-card{
+    text-align: center;
+}
+.thank-you {
+  margin-bottom: 20px;
+}
+.printed-result-container {
+  margin: 0 auto 20px auto;
+  background-color: hsl(213, 19%, 25%);
+  padding: 7px;
+  border-radius: 15px;
+  max-width: 175px;
+}
+
+.printed-result {
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you-paragraph {
+  line-height: 1.65;
+  color: hsl(216, 12%, 54%);
+}
+.printed-result-container {
+  margin: 0 auto 20px auto;
+  background-color: hsl(213, 19%, 25%);
+  padding: 7px;
+  border-radius: 15px;
+  max-width: 175px;
+}
+
+.printed-result {
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you-paragraph {
+  line-height: 1.65;
+  color: hsl(216, 12%, 54%);
+  
+}
+
+.hidden {
+  display: none;
+}
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .thank-you-paragraph {
+    margin-bottom: 45px;
+    font-size: 16px;
+  }
+}
